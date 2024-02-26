@@ -12,14 +12,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+    
     
 }
 
 .hero{
     display: flex;
     flex-direction: column;
-    padding:  16px 80px;
+    padding:  16px 15%;
 
 }
 
@@ -33,19 +33,22 @@ ul{
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 14px;
 }
 
 a{
     text-decoration: none;
 }
 
-a, .secondary-text{ 
+a, .secondary-text, .footer{ 
     color: #e5e7eb;
     font-size: 18px;
 }
 
 .hero-contents{
    display: flex;
+   gap: 48px;
+   margin:100px 100px 0 0;
 }
 
 .title{
@@ -60,9 +63,20 @@ a, .secondary-text{
     padding: 24px;
 }
 
+
 .hero-image{
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
+}
+
+button{
+    color: white;
+    background-color: #3882f6;
+    padding: 4px 24px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    margin-top: 8px;
 }
