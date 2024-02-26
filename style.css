@@ -48,8 +48,8 @@ a, .secondary-text, .footer{
 .hero-contents{
    display: flex;
    gap: 48px;
-   margin:100px 100px 0 0;
-}
+   margin:100px  0 0;
+  }
 
 .title{
     font-size: 48px;
@@ -63,11 +63,13 @@ a, .secondary-text, .footer{
     padding: 24px;
 }
 
+.hero-text{
+}
 
 .hero-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-width: 0;
+    
+   
 }
 
 button{
